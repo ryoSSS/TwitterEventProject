@@ -1,0 +1,47 @@
+{
+  "name": "TwiboProject",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env HOST=0.0.0.0 PORT=3000 nuxt-ts",
+    "build": "nuxt-ts build ",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "vercel-build":"nuxt-ts build",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "firebase": "^7.18.0",
+    "nuxt": "^2.14.0",
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "konva": "^7.0.6",
+    "vue-konva": "^2.1.4",
+    "@nuxt/content": "^1.5.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.3",
+    "@nuxt/typescript-build": "^2.0.2",
+    "firebaseui": "^4.6.1",
+    "vuex-persistedstate": "^3.1.0",
+    "nuxt-property-decorator": "^2.7.2",
+    "@nuxt/types": "^2.14.0",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-config-typescript": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "faker": "^4.1.0",
+    "firebase-admin": "^9.1.0",
+    "firebase-tools": "^8.7.0",
+    "prettier": "^2.0.5"
+  }
+}
